@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"co.edu.iub"},{"l":"co.edu.iub.excepciones"},{"l":"co.edu.iub.interfaces"},{"l":"co.edu.iub.models"},{"l":"co.edu.iub.services"},{"l":"co.edu.iub.views"}];updateSearchResults();
