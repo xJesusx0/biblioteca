@@ -3,6 +3,10 @@ package co.edu.iub.models;
 import co.edu.iub.excepciones.PrestamoException;
 import co.edu.iub.interfaces.Prestable;
 
+/**
+ * Representa un libro en la biblioteca.
+ * Extiende Material e implementa la interfaz Prestable.
+ */
 public class Libro extends Material implements Prestable {
 	private String editorial;
 	private String año;

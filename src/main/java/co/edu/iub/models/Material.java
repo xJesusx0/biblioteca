@@ -1,5 +1,9 @@
 package co.edu.iub.models;
 
+/**
+ * Clase base para los materiales de la biblioteca.
+ * Contiene atributos comunes como id, nombre, descripción, autor y stock.
+ */
 public abstract class Material {
 
 	private Integer id;

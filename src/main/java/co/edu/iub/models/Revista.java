@@ -1,5 +1,9 @@
 package co.edu.iub.models;
 
+/**
+ * Representa una revista en la biblioteca.
+ * Extiende Material e implementa la interfaz Prestable.
+ */
 public class Revista extends Material {
 
 	private String edicion;

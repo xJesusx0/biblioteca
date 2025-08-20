@@ -3,6 +3,11 @@ package co.edu.iub.models;
 import co.edu.iub.excepciones.PrestamoException;
 import co.edu.iub.interfaces.Prestable;
 
+/**
+ * Representa un cómic en la biblioteca.
+ * Extiende Material e implementa la interfaz Prestable.
+ * Incluye atributos de género y edición.
+ */
 public class Comic extends Material implements Prestable {
 
 	private String genero;

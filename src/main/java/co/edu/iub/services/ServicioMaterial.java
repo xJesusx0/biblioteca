@@ -8,6 +8,9 @@ import co.edu.iub.models.Revista;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Servicio para gestionar operaciones de busqueda de materiales.
+ */
 public class ServicioMaterial {
 
 	private static ServicioMaterial instancia;
