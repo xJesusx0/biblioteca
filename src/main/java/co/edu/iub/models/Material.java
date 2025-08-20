@@ -52,12 +52,18 @@ public abstract class Material {
 		this.autor = autor;
 	}
 
-
 	public Integer getStock() {
 		return stock;
 	}
 
 	public void setStock(Integer stock) {
 		this.stock = stock;
+	}
+
+	public abstract String mostrarDetalles();
+
+	@Override
+	public String toString() {
+		return this.getNombre();
 	}
 }

@@ -53,4 +53,10 @@ public class Comic extends Material implements Prestable {
 	public boolean disponible() {
 		return getStock() > 0;
 	}
+
+	@Override
+	public String mostrarDetalles() {
+		return "Edicion: " + edicion + "\n"
+				+ "Genero: " + genero;
+	}
 }

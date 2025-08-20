@@ -33,4 +33,10 @@ public class Revista extends Material {
 	public void setPeriodicidad(String periodicidad) {
 		this.periodicidad = periodicidad;
 	}
+
+	@Override
+	public String mostrarDetalles() {
+		return "Edicion: " + edicion + "\n"
+				+ "Periodicidad: " + periodicidad;
+	}
 }

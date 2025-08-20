@@ -52,4 +52,10 @@ public class Libro extends Material implements Prestable {
 	public boolean disponible() {
 		return getStock() > 0;
 	}
+
+	@Override
+	public String mostrarDetalles() {
+		return "Editorial: " + editorial + "\n"
+				+ "Año: " + año;
+	}
 }

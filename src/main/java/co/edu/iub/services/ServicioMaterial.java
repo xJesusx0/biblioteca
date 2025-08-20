@@ -84,4 +84,8 @@ public class ServicioMaterial {
 				.toList();
 	}
 
+	public List<Material> obtenerMaterialesPrestables(){
+		return materiales;
+	}
+
 }
